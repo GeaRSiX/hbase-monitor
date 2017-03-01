@@ -1,0 +1,13 @@
+{
+  "name": "edgenode-monitor",
+  "version": "1.0.0",
+  "description": "A monitor tool for hdp8edge1",
+  "main": "edgenode-monitor.js",
+  "dependencies": {
+    "hbase": "^0.2.3",
+    "log-prefix": "0.0.0",
+    "ms": "^0.7.2",
+    "nodemailer": "^3.1.3"
+  },
+  "author": "alexander collins"
+}

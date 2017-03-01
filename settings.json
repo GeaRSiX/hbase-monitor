@@ -1,0 +1,23 @@
+{
+	"queryInterval": "12hrs",
+	"hbase": {
+		"host": "localhost",
+		"port": "8080"
+	},
+	"mail": {
+		"sender": "hdp8edge1@intel.com",
+		"recievers": [
+			"alexander.j.collins@intel.com"
+		],
+		"subject": "edgenode-monitor"
+	},
+	"smtp": {
+		"host": "smtp.sendgrid.net",
+		"port": 587,
+		"requiresAuth": true,
+		"auth": {
+			"user": "apikey",
+			"pass": "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"
+		}
+	}
+}
