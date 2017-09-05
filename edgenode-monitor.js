@@ -20,18 +20,18 @@ function timestamp() {
 }
 
 /*modules*/
-const FS = require('fs');							//for reading settings.json
-const DNS = require('dns');							//for testing connection status
-const EXEC = require('child_process').exec;			//for restarting the server
-const HBASE = require('hbase');						//interacting with hbase REST api
-const NODEMAILER = require('nodemailer');			//mailer for sending alerts
+const FS = require('fs');				//for reading settings.json
+const DNS = require('dns');				//for testing connection status
+const EXEC = require('child_process').exec;		//for restarting the server
+const HBASE = require('hbase');				//interacting with hbase REST api
+const NODEMAILER = require('nodemailer');		//mailer for sending alerts
 const LOGPREFIX = require('log-prefix')(timestamp);	//add a timestamp prefix to console logs
-const MS = require('ms');							//for parsing queryInterval in settings.json
+const MS = require('ms');				//for parsing queryInterval in settings.json
 
 /*globals*/
 var settings;
 var transport;
-var	hbaseClient;
+var hbaseClient;
 
 /*main*/
 console.log('STARTING');

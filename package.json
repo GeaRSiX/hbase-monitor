@@ -1,7 +1,7 @@
 {
   "name": "edgenode-monitor",
   "version": "1.0.0",
-  "description": "A monitor tool for hdp8edge1",
+  "description": "A monitoring tool for hbase",
   "main": "edgenode-monitor.js",
   "dependencies": {
     "hbase": "^0.2.3",
